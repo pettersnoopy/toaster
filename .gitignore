@@ -14,4 +14,5 @@
 /toaster/build
 .externalNativeBuild
 .cxx
+github.properties
 local.properties

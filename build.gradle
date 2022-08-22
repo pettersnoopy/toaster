@@ -3,6 +3,13 @@ buildscript {
     repositories {
         google()
         mavenCentral()
+        maven {
+            url "https://maven.pkg.github.com/pettersnoopy/toaster"
+            credentials {
+                username = "pettersnoopy"
+                password = "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"
+            }
+        }
     }
     dependencies {
         classpath "com.android.tools.build:gradle:7.0.0"
